@@ -62,7 +62,7 @@ void lightingUpLights(){
    state = 2; 
   }
   if (state == 2 && m >= timeTillAmber+1 && m < timeTillGreen && m < timeTillReset){
-    fill(255); 
+    fill(255, 100, 100); 
     ellipse(width/2, height/2, 50, 50);
     fill(0, 255, 0);
     ellipse(width/2, height/2 + 65, 50, 50);   
